@@ -1,0 +1,68 @@
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+.menu_li {
+  padding: 10px;
+  border-style: double;
+  border-width: thick;
+  border-radius: 10px 30px 30px 10px;
+  background: rgb(34,0,255);
+  background: linear-gradient(90deg, rgba(40,0,255,1) 0%, rgba(0,255,255,1) 100%);
+}
+.container {
+  background: rgb(40,0,255);
+  background: linear-gradient(180deg, rgba(40,0,255,1) 0%, rgba(0,255,255,1) 100%);
+  width: 900px;
+  margin: auto;
+  padding: 50px;
+  font-family: cursive;
+}
+#onderwereld_div {
+  background: rgb(255,0,0);
+  background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+}
+#windgoden_div {
+  background: rgb(0,255,255);
+  background: linear-gradient(180deg, rgba(0,255,255,1) 0%, rgba(255,0,220,1) 100%);
+}
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  background: rgb(255,120,120);
+  background: linear-gradient(0deg, rgba(255,120,120,1) 30%, rgba(120,120,255,1) 70%);
+}
+th, td {
+  padding: 5px
+}
+.menu_li:hover {
+  background: rgb(255,120,120);
+  background: linear-gradient(0deg, rgba(255,120,120,1) 30%, rgba(120,120,255,1) 70%);
+}
+caption {
+  font-weight: bold;
+}
+img {
+  border-style: double;
+  border-width: thick;
+  border-color: white;
+  border-radius: 10px;
+}
+.onderwereld_img {
+  border-color: black;
+}
+.inleiding_p {
+  font-style: italic;
+}
+.light_text {
+  color: rgb(150,150,150)
+}
+.naam {
+  font-weight: bold;
+}
+.goden_inhoud {
+  list-style-type: lower-greek;
+}
