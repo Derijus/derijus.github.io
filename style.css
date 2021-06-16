@@ -18,6 +18,9 @@ body {
 .container {
   background: rgb(40,0,255);
   background: linear-gradient(180deg, rgba(40,0,255,1) 0%, rgba(0,255,255,1) 100%);
+  border-style: double;
+  border-radius: 20px;
+  border-color: white;
   width: 900px;
   margin: auto;
   padding: 50px;
