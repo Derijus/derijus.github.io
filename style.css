@@ -45,6 +45,9 @@ th, td {
   background: rgb(255,120,120);
   background: linear-gradient(0deg, rgba(255,120,120,1) 30%, rgba(120,120,255,1) 70%);
 }
+a:visited {
+  color: black;
+}
 caption {
   font-weight: bold;
 }
