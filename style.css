@@ -5,7 +5,6 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-
 }
 .menu_li {
   padding: 10px;
@@ -21,7 +20,7 @@ body {
   border-style: double;
   border-radius: 20px;
   border-width: thick;
-  border-color: white;
+	border-color: white;
   width: 900px;
   margin: auto;
   margin-top: 20px;
@@ -77,4 +76,5 @@ img {
 }
 .goden_inhoud {
   list-style-type: lower-greek;
+	font-style: italic;
 }
